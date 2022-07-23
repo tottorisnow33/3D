@@ -122,6 +122,20 @@ function MainWindow() {
       <SButton onClick={fileUpload}>ビューイング</SButton>
     </SContainer>
 
+    <SContainer>
+      <STitle>田園</STitle>
+      <SImg src={`${process.env.PUBLIC_URL}/田園.jpg`} alt="Logo" />
+      <SButton onClick={fileUpload}>ダウンロード</SButton>
+      <SButton onClick={fileUpload}>ビューイング</SButton>
+    </SContainer>
+
+    <SContainer>
+      <STitle>田園</STitle>
+      <SImg src={`${process.env.PUBLIC_URL}/田園.jpg`} alt="Logo" />
+      <SButton onClick={fileUpload}>ダウンロード</SButton>
+      <SButton onClick={fileUpload}>ビューイング</SButton>
+    </SContainer>
+
     </SList>
   </p>
   );
@@ -170,6 +184,7 @@ background-color: #ffffff;
 border-radius: 8px;
 // margin-top: 5%;
 margin-left:0%;
+margin-bottom: 30px;
 `
 
 const STitle = styled.h3`

@@ -27,15 +27,14 @@ export default Fotter;
  ********************************/
 /*全体*/
  const SFotter = styled.footer`
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    display: flex;
     text-align: center;
     height:70px;
     background-color: #86cecb;
-    // position: absolute;
-    bottom: 0;
     `;
 
 const SCopy = styled.p`
-    margin:auto
+    margin-top-20px;
 `
